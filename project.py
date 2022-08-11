@@ -6,22 +6,21 @@ dataPath = "/Users/user/Desktop/project/Data.CDI.csv"
 crimeDiscriptiveData = DiscriptiveStatistics(dataPath)
 crimeVisualizeData = VisualizeData(dataPath)
 
-
-# crimeDiscriptiveData.printCrimeData()
-# crimeDiscriptiveData.printHead()
-# crimeDiscriptiveData.printColumnName()
-# crimeDiscriptiveData.printDataDescription()
-# crimeDiscriptiveData.printCorr('TotPop','SeriCrim')
-# crimeDiscriptiveData.printAllCorr('SeriCrim')
-# crimeDiscriptiveData.countUniqueValue('Region')
+crimeDiscriptiveData.printData()
+crimeDiscriptiveData.printHead()
+crimeDiscriptiveData.printColumnName()
+crimeDiscriptiveData.printDataDescriptive()
+crimeDiscriptiveData.printCorr('TotPop','SeriCrim')
+crimeDiscriptiveData.printAllCorr('SeriCrim')
+crimeDiscriptiveData.countUniqueValue('Region')
 crimeDiscriptiveData.percentageValue('Region')
-# crimeDiscriptiveData.meanCrimeInRegion()
+crimeDiscriptiveData.meanCrimeInRegion()
 
 
 # PLOT
-# crimeVisualizeData.plotColumnHistogram('SeriCrim')
-# crimeVisualizeData.plotBoxData('SeriCrim', 'Region')
-# crimeVisualizeData.plotScatter('SeriCrim', 'BelowPoverty')
-# crimeVisualizeData.plotScatter('SeriCrim', 'PerIncome')
+crimeVisualizeData.plotColumnHistogram('SeriCrim')
+crimeVisualizeData.plotBoxData('SeriCrim', 'Region')
+crimeVisualizeData.plotScatter('SeriCrim', 'BelowPoverty')
+crimeVisualizeData.plotScatter('SeriCrim', 'PerIncome')
 
 

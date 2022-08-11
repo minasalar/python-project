@@ -8,7 +8,7 @@ class DiscriptiveStatistics:
         self.df = pd.read_csv(dataPath)
 
     # print whole data file 
-    def printData(self):
+    def ç(self):
         print(self.df)
 
     # print first 5 data file and create a .txt file 
