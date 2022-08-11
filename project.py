@@ -8,7 +8,7 @@ crimeVisualizeData = VisualizeData(dataPath)
 
 
 # crimeDiscriptiveData.printCrimeData()
-crimeDiscriptiveData.printHead()
+# crimeDiscriptiveData.printHead()
 # crimeDiscriptiveData.printColumnName()
 # crimeDiscriptiveData.printDataDescription()
 # crimeDiscriptiveData.printCorr('TotPop','SeriCrim')
@@ -17,7 +17,7 @@ crimeDiscriptiveData.printHead()
 
 
 # PLOT
-crimeVisualizeData.plotColumnHistogram('TotPop')
+# crimeVisualizeData.plotColumnHistogram('TotPop')
 # crimeVisualizeData.plotBoxData('SeriCrim', 'Region')
 # crimeVisualizeData.plotScatter('SeriCrim', 'Region')
 
