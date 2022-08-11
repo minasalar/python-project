@@ -2,7 +2,7 @@
 from discriptive_statistics import DiscriptiveStatistics
 from visualize_data import VisualizeData
  
-dataPath = "/Users/user/Desktop/project/Data.CDI.csv"
+dataPath = "/home/BIOSTAT/student19/python-project-master/Data.CDI.csv"
 crimeDiscriptiveData = DiscriptiveStatistics(dataPath)
 crimeVisualizeData = VisualizeData(dataPath)
 
