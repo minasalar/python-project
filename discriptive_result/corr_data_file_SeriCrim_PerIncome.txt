@@ -1,0 +1,3 @@
+           SeriCrim  PerIncome
+SeriCrim   1.000000   0.843098
+PerIncome  0.843098   1.000000

@@ -12,13 +12,16 @@ crimeVisualizeData = VisualizeData(dataPath)
 # crimeDiscriptiveData.printColumnName()
 # crimeDiscriptiveData.printDataDescription()
 # crimeDiscriptiveData.printCorr('TotPop','SeriCrim')
+# crimeDiscriptiveData.printAllCorr('SeriCrim')
 # crimeDiscriptiveData.countUniqueValue('Region')
-#crimeDiscriptiveData.percentageValue('Region')
+crimeDiscriptiveData.percentageValue('Region')
+# crimeDiscriptiveData.meanCrimeInRegion()
 
 
 # PLOT
-# crimeVisualizeData.plotColumnHistogram('TotPop')
+# crimeVisualizeData.plotColumnHistogram('SeriCrim')
 # crimeVisualizeData.plotBoxData('SeriCrim', 'Region')
-# crimeVisualizeData.plotScatter('SeriCrim', 'Region')
+# crimeVisualizeData.plotScatter('SeriCrim', 'BelowPoverty')
+# crimeVisualizeData.plotScatter('SeriCrim', 'PerIncome')
 
 

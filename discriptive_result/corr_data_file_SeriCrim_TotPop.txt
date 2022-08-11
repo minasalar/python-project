@@ -1,0 +1,3 @@
+          SeriCrim    TotPop
+SeriCrim  1.000000  0.886332
+TotPop    0.886332  1.000000
